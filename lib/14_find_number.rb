@@ -13,7 +13,7 @@ class FindNumber
   end
 
   def make_guess
-    ((min + max) / 2).ceil
+    @guess = ((min + max) / 2).ceil
   end
 
   def game_over?
